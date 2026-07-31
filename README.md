@@ -25,7 +25,7 @@ GPlex with accurate footer links [gplex_accurate.user.js](https://github.com/Ebe
 ## MORE INFO:
 This is my version of [GPlex2009](https://github.com/clockiscool1234/GPlex2009), but instead of 2009 I'm aiming to recreate the 2007-2008 look of Google Search.<br> 
 Some things might be a little inaccurate/broken, for example the footer on the search pages are probably not very accurate.
-I wasn't able to find much imagery for stuff like that so I made use of what I was able to find (if you have any screenshots or know where to find them it would be helpful to let me know.
+I wasn't able to find much imagery for stuff like that so I made use of what I was able to find. (if you have any screenshots or know where to find them it would be helpful to let me know)
 I'm also quite new to userstyles, so I'll keep learning along the way. 
 
 
