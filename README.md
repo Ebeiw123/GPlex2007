@@ -19,7 +19,7 @@ Display name: Email (if not using CalyHam's GBar)
 
 ## OPTIONAL:
 CalyHam's GBar: https://github.com/CallyHam/Google-Gbar/<br>
-1999-2008 Favicon: https://greasyfork.org/en/scripts/585942-google-favicon-1999-2008
+1999-2008 Favicon: https://greasyfork.org/en/scripts/585942-google-favicon-1999-2008<br>
 GPlex with accurate footer links [gplex_accurate.user.js](https://github.com/Ebeiw123/GPlex2007/raw/refs/heads/main/gplex_accurate.user.js)
 
 ## MORE INFO:
