@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           GPlex 2009
+@name           GPlex 2007
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    GPlex 2009 theme
-@author         Clockiscool1234
+@description    2007 theme for GPlex (GPlex 2009 edit)
+@author         Ebeiw
 ==/UserStyle== */
 @-moz-document domain("www.google.com") {
     #gp-gbar-inner {
@@ -46,11 +46,31 @@
     #ugf-hp-search {
         margin-top: 35px !important;
     }
+    
+    #ugf-hp-buttons {
+        top: -14px;
+        position: relative;
+        
+    }
+    
+    #ugf-search-btn-2{
+        position: relative;
+        left: 5px;
+        font: 13px arial, sans-serif;
+    }
+    
+    #ugf-lucky-btn{
+        position: relative;
+        right: 7px;
+        font: 13px arial, sans-serif;
+        height: 70px;
+        
+    }
 
     #ugf-search #ugf-searchbar {
         border: none !important;
-        width: 515px;
-        margin-left: 27px !important;
+        width: 397px;
+        margin-left: 85px !important;
         background: none !important;
     }
 
@@ -58,9 +78,9 @@
         border: revert !important;
         outline: revert !important;
         background: revert !important;
-        width: 515px !important;
+        width: 395px !important;
         height: revert !important;
-        font: 17px arial, sans-serif !important;
+        font: 13px arial, sans-serif !important;
         vertical-align: bottom;
     }
 
@@ -75,20 +95,20 @@
     }
 
     #ugf-search-predictions-container {
-        width: 515px !important;
-        top: 25px !important;
-        margin-left: 27px !important;
+        width: 401px !important;
+        top: 22px !important;
+        margin-left: 85px !important;
     }
 
     #ugf-searchbar::after {
-        content: "Advanced Search\aLanguage Tools";
+        content: "Advanced Search\aPreferences\aLanguage Tools";
         white-space: pre;
         text-decoration: underline;
         color: #00c;
         font-size: 10px;
         top: 0;
         position: absolute;
-        right: -97px;
+        right: -92px;
     }
 
     #gp-gbar-settings-button {
@@ -101,10 +121,10 @@
         background: none !important;
         border: none !important;
         width: max-content;
-        margin: 50px auto 0 auto;
+        margin: 31px auto 0 auto;
         flex-flow: row wrap;
     }
-
+    
     #ugf-structured-hp-footer-left,
     #ugf-structured-hp-footer-right {
         margin-left: 0;
@@ -116,11 +136,12 @@
 
     #ugf-hp-footer,
     .ugf-structured-hp-footer-link {
+        font-size: 13px;
         line-height: 15px !important;
         color: #00c !important;
         padding-left: 0;
-        text-decoration: none !important;
-        border-bottom: #00c solid 1px
+        text-decoration: underline !important;
+        border-bottom: #00c solid 0px
     }
 
     #ugf-structured-hp-footer-left .ugf-structured-hp-footer-link:not(:last-child):after {
@@ -140,19 +161,25 @@
     }
 
     #ugf-structured-hp-footer-right .ugf-structured-hp-footer-link:first-child {
-        margin-left: 28px;
+        display: none;
     }
 
-    #ugf-structured-hp-footer-right .ugf-structured-hp-footer-link:first-child:before {
-        content: "©2009 - ";
+    #ugf-structured-hp-footer-right::after{
+        content: "©2007 Google";
         position: absolute;
-        margin-left: -40px;
+        margin-left: -34px;
         color: black;
+        font-size: 10px;
+        margin-top: 15px;
     }
-
+    
     #ugf-structured-hp-footer-left .ugf-structured-hp-footer-link:not(:first-child) {
         margin-left: 10px;
-    }
+    
+    #ugf-structured-hp-footer-left:first-child {
+        display: none;
+    }    
+    
     #ugf-topbar {
         min-width: 0;
     }
@@ -167,23 +194,38 @@ regexp(".*google.com/gplex.*") {
 
     #ugf-search-value,
     #ugf-searchbar {
-        width: 303px !important;
+        width: 297px !important;
         height: 16px !important;
         font-size: 13px !important;
-    }
+        right: 77px;
+    } 
 
     #ugf-searchbar::after {
         content: "Advanced Search\aPreferences";
-        right: -180px;
+        margin-left: -5px;
     }
-
-
+    
+    #ugf-search-outer,
+    #ugp-search {
+        position: relative;
+        width: 370px;
+    }
+    
+    #ugf-search-predictions-container {
+        left: -80px;
+    }
+    
+    button.searchbtn-small {
+        position: relative;
+        left: -78px;
+    }
+    
     #ugf-search-results-header {
         width: calc(100% - 13px);
         left: 5px;
         border-top: 1px solid #6b90da;
         background: #f0f7f9;
-        height: 28px;
+        height: 27.4px;
         padding: 0;
         top: 97px !important;
     }
@@ -208,8 +250,73 @@ regexp(".*google.com/gplex.*") {
     #ugf-main,
     #ugf-footer {
         width: 100%;
+        z-index: 10;
     }
-
+    
+    #ugf-right {
+        display: none;
+    }
+    
+    #gp-page-numbers {
+        text-decoration: underline #00c !important;
+    }
+    
+    
+    #ugf-footer-links-upper,
+    #ugf-footer-links-lower {
+        display: none;
+    }
+    
+    #ugf-footer-links-middle .ugf-footer-link.ugf-parse-item:last-child{
+        display: none;
+    }
+        
+    #ugf-footer-links .ugf-footer-link.ugf-parse-item{
+        margin: 3px;
+    }
+    
+    #ugf-footer-links-middle {
+        width: calc(100% - 13px);
+        border-top: 1px solid #6b90da;
+        background: #f0f7f9 ;
+        height: 22px;
+        padding: 0;
+        top: 97px;
+        text-decoration: underline #00c;
+        justify-content: center;
+    }
+    
+    #ugf-footer-links-middle::before {
+        content: "©2007 Google ";
+        color: black;
+        font-size: 13px;
+        text-decoration: underline #f0f7f9;
+    }
+    
+    #ugf-footer-links-middle .ugf-footer-link.ugf-parse-item:nth-child(3n)::after{
+        content: " -";
+        color: black;
+        text-decoration: underline #f0f7f9;
+        
+    }
+    
+    #ugf-footer-links-middle::after {
+        content: "About Google";
+        color: #00c;
+        font-size: 13px;
+        
+    }
+    
+    .ugf-footer-link.ugf-parse-item::before {
+        content: "- ";
+        position: relative;
+        color: black;
+        margin-right: 1px;
+        margin-left: 1px;
+        text-decoration: underline #f0f7f9;
+    }
+    
+    
     .gp-pagination .gp-image {
         background-image: url("https://www.google.com/images/nav_logo3.png") !important;
         width: 15px !important;
@@ -226,6 +333,10 @@ regexp(".*google.com/gplex.*") {
         width: 44px !important;
         background-position: 0 0 !important;
     }
+    
+    #gp-pagination-prev span {
+        text-decoration: underline #00c !important;
+    }
 
     .gp-pagination.active .gp-image {
         background-position: -60px 0 !important;
@@ -238,6 +349,7 @@ regexp(".*google.com/gplex.*") {
 
     #gp-pagination-next span {
         margin-left: 35px !important;
+        text-decoration: underline #00c !important;
     }
 
 
