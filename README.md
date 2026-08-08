@@ -29,6 +29,6 @@ I wasn't able to find much imagery for stuff like that so I made use of what I w
 I'm also quite new to userstyles, so I'll keep learning along the way. 
 
 
-Credits to [clockiscool1234](https://github.com/clockiscool1234) for the original project and [Lightbeam24](https://github.com/lightbeam24) for GBar
+Credits to [clockiscool1234](https://github.com/clockiscool1234) for the original project and [Lightbeam24](https://github.com/lightbeam24) for GPlex
 
 And have fun reliving 2007 Google!
